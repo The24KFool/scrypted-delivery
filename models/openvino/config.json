@@ -1,0 +1,22 @@
+{
+  "model": {
+    "layout": "NCHW",
+    "input": {
+      "color": true,
+      "mean": [
+        0,
+        0,
+        0
+      ],
+      "std": [
+        1,
+        1,
+        1
+      ],
+      "size": [
+        640,
+        640
+      ]
+    }
+  }
+}
