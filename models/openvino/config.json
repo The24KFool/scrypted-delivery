@@ -1,0 +1,29 @@
+{
+  "model": {
+    "layout": "NCHW",
+    "input": {
+      "color": true,
+      "mean": [
+        0,
+        0,
+        0
+      ],
+      "std": [
+        1,
+        1,
+        1
+      ],
+      "size": [
+        640,
+        640
+      ]
+    },
+    "classes": {
+      "0": "Amazon",
+      "1": "FedEx",
+      "2": "UPS",
+      "3": "USPS",
+      "4": "DHL"
+    }
+  }
+}
