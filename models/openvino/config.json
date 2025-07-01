@@ -5,14 +5,44 @@
       "color": true,
       "mean": [0, 0, 0],
       "std": [1, 1, 1],
-      "size": [224, 224]
+      "size": [640, 640]
     },
     "classes": {
-      "0": "Amazon",
-      "1": "FedEx",
-      "2": "UPS",
-      "3": "USPS",
-      "4": "DHL"
-    }
+      "0": "amazon",
+      "1": "dhl",
+      "2": "fedex",
+      "3": "homedepot",
+      "4": "ikea",
+      "5": "lowes",
+      "6": "target",
+      "7": "ups",
+      "8": "usps",
+      "9": "walmart",
+      "10": "garbage",
+      "11": "uhaul"
+    },
+    "confidenceThreshold": 0.5,
+    "nmsThreshold": 0.5,
+    "labels": [
+      "amazon",
+      "dhl",
+      "fedex",
+      "homedepot",
+      "ikea",
+      "lowes",
+      "target",
+      "ups",
+      "usps",
+      "walmart",
+      "garbage",
+      "uhaul"
+    ],
+    "anchors": [
+      [10,13, 16,30, 33,23],
+      [30,61, 62,45, 59,119],
+      [116,90, 156,198, 373,326]
+    ],
+    "mask": [[0,1,2],[3,4,5],[6,7,8]],
+    "model_type": "yolo"
   }
 }
