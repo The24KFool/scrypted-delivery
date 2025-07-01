@@ -3,20 +3,9 @@
     "layout": "NCHW",
     "input": {
       "color": true,
-      "mean": [
-        0,
-        0,
-        0
-      ],
-      "std": [
-        1,
-        1,
-        1
-      ],
-      "size": [
-        640,
-        640
-      ]
+      "mean": [0, 0, 0],
+      "std": [1, 1, 1],
+      "size": [224, 224]
     },
     "classes": {
       "0": "Amazon",
