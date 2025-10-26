@@ -15,5 +15,5 @@
   "input": "images",
   "output": "output0",
   "task": "detect",
-  "model": "yolov8"
+  "model": "yolov8n"
 }
