@@ -14,5 +14,6 @@
   "function": "detect",
   "input": "images",
   "output": "output0",
-  "task": "detect"
+  "task": "detect",
+  "model": "yolov8"
 }
